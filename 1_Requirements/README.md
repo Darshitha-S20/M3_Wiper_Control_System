@@ -13,6 +13,15 @@ A Wiper control system have a key role during adverse weather conditions by wipi
 
 * STM32 CUBE IDE is used for the software simulation. STM32CubeProgrammer (STM32CubeProg) provides an all-in-one software tool to program STM32 devices in any environment: multi-OS, graphical user interface or command line interface, support for a large choice of connections (JTAG, SWD, USB, UART, SPI, CAN, I2C), with manual operation or automation through scripting.
 
+
+# Working Of the Project 
+*	The RED LED is considered for the ACC position. Once the push button is pressed for 2 seconds, the RED LED starts continuously glowing until the stop of the engine. This tells that the system is turned ON.
+* When the users press the input push button, the other three Blue, Green and Orange LEDs come ON one at a time with the low frequency.
+* The frequency changes from low to high frequency (indication speed of the wiper control system) 3 frequency levels with 1, 4 and 8 Hz.
+*	The LED glow pattern stops on the 4th press; the wiper action starts with the next press.
+*	If the push button is pressed again for 2 seconds, the pattern stops bringing it to default position and the RED light goes off which signifies the engine is turned   OFF.
+
+
 # SWOT Analysis
 
 ## Strength
@@ -61,6 +70,13 @@ By adjusting the wiper which is done by changing its speed to enhance the visibi
 # Details of Requirements
 
 ## High Level Requirements
+
+![image](https://user-images.githubusercontent.com/71258149/168427975-090c87c5-405e-4783-8cde-6db99013d078.png)
+
+## Low Level Requirements
+
+![image](https://user-images.githubusercontent.com/71258149/168427993-64ab1221-21d9-43a5-814d-975ce7bfb408.png)
+
 
 
 
