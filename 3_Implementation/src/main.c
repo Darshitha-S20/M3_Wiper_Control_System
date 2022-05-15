@@ -247,14 +247,6 @@ if(A>2000000)			//1uSec = 1 clock  hence 2 Sec = 2000000 Cycle
 		LED_1_OFF();
 		}
 
-	/*wiper stop*/
-		while(BCount==0)
-		{
-			LED_1_OFF();
-			LED_2_OFF();
-			LED_3_OFF();
-		}
-
 	}
 
 }
