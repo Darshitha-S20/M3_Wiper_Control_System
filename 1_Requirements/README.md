@@ -79,6 +79,13 @@ By adjusting the wiper which is done by changing its speed to enhance the visibi
 
 
 
+REFERENCE
+
+*https://github.com/VIGNESH8629/M3_WIPER_CONTROL_SYSTEM
+*https://github.com/SreeLikitha/M3_WiperControlSystem
+
+
+
 
 
 
