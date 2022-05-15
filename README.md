@@ -13,4 +13,4 @@
 
 ## Code Grade
 
-[!(Code Grade)(https://api.codiga.io/project/33512/status/svg)]
+![Code Grade](https://api.codiga.io/project/33512/status/svg)
